@@ -37,7 +37,7 @@
 						<p>Верстка на HTML, CSS и JS<br>Разработка сайтов под ключ</p>
 					</div>
 				</div>
-				<a class="main-down" href="#portfolio"><i class="icon-down"></i></a>
+				<a class="main-down slowly" href="#portfolio"><i class="icon-down"></i></a>
 			</div> 
 
 			<div class="portfolio" id="portfolio">
@@ -128,8 +128,8 @@
     			var id = $(this).attr('href'),
     			//Узнаём высоту от начала страницы до блока, на который ссылается якорь.
     			top = $(id).offset().top;
-    			//Анимируем переход на расстояние - top за 800ms.
-    			$('body,html').animate({scrollTop: top}, 800);
+    			//Анимируем переход на расстояние - top за 1000ms.
+    			$('body,html').animate({scrollTop: top}, 1000);
     		});
     	});
     </script>
