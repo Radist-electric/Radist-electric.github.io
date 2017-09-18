@@ -170,7 +170,39 @@ a:active, a:visited, a:focus {
 	color: #333;
 	text-decoration: none;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 329px) {
+    html {
+		font-size: 5.5px;
+	}
+	.footer strong {
+		margin: 2.2rem 0 1.2rem;
+		display: inline-block;
+	}
+	.social-links a {
+		font-size: 1.5rem;
+	}
+    .modal-content img {
+        max-height: 98%;
+        max-width: 98%;
+    }
+}
+@media (min-width: 330px) and (max-width: 479px) {
+    html {
+		font-size: 6px;
+	}
+	.footer strong {
+		margin: 2.5rem 0 1.5rem;
+		display: inline-block;
+	}
+	.social-links a {
+		font-size: 1.8rem;
+	}
+    .modal-content img {
+        max-height: 99%;
+        max-width: 99%;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px) {
 	html {
 		font-size: 7px;
 	}
@@ -179,7 +211,7 @@ a:active, a:visited, a:focus {
 		display: inline-block;
 	}
 	.social-links a {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 }
 
@@ -192,7 +224,7 @@ a:active, a:visited, a:focus {
 		display: inline-block;
 	}
 	.social-links a{
-		font-size: 2rem;
+		font-size: 2.2rem;
 	}
 }
 
@@ -264,7 +296,6 @@ Modal window
 }
 .cd-modal p {
   line-height: 1.6;
-  max-width: 800px;
 }
 .cd-modal .modal-close {
   /* 'X' icon */
